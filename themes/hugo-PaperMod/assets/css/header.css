@@ -1,0 +1,158 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  
+}
+
+.nav a {
+    display: block
+}
+
+.logo,
+.menu {
+    display: flex;
+    
+    flex-wrap: inherit
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: 700;
+    margin-inline-end: 10px
+}
+
+.logo a img {
+    display: inline;
+    vertical-align: middle;
+    pointer-events: none;
+    transform: translate(0, -10%);
+    border-radius: 6px;
+    margin-inline-end: 8px
+}
+
+.theme-toggle svg {
+    height: 18px;
+    user-select: none;
+    cursor: pointer
+}
+
+body.dark #moon {
+    vertical-align: middle;
+    display: none
+}
+
+body:not(.dark) #sun {
+    display: none
+}
+
+.menu {
+    list-style: none;
+    word-break: keep-all;
+    overflow-x: auto;
+    white-space: nowrap
+}
+
+.menu li+li {
+    margin-inline-start: var(--gap)
+}
+
+.menu a {
+    font-size: 16px
+}
+
+.menu .active {
+    font-weight: 500;
+    border-bottom: 2px solid currentColor
+}
+
+.lang-switch li,
+.lang-switch ul,
+.logo-switches {
+    display: inline-flex
+}
+
+.lang-switch a {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 8px
+}
+
+.logo-switches {
+    flex-wrap: inherit
+}
+
+
+
+ 
+
+
+#menu{
+    margin-top: 50px;
+}
+
+
+
+.mn {
+    display: block;
+    z-index: 999999;
+}
+.mn li {
+    display: inline-block;
+    position: relative;
+}
+.mn li.dropdown:hover > .submenu {
+    display: block;
+}
+.mn li a {
+    display: block;
+    padding: 12px 8px;
+     
+}
+ 
+ 
+.mn li a:hover {
+    background: #eee;
+}
+
+.mn .submenu {
+    display: none;
+}
+.submenu {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    list-style-type: none;
+    display: block;
+    border: 1px solid #eee;
+    width: 150px;
+    z-index: 9;
+    border-radius: 5px;
+    
+}
+.submenu li {
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+.submenu li a {
+    display: block;
+  
+    
+    margin-bottom: 1px;
+}
+.mn .submenu > li.dropdown:hover > .submenu {
+    display: block;
+}
+
+.mn .submenu .submenu {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+ 
+
