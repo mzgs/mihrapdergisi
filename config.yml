@@ -1,4 +1,4 @@
-baseURL: "http://mihrapdergisi.com"
+baseURL: "https://mihrapdergisi.com"
 title: Mihrap Dergisi
 paginate: 5
 theme: hugo-PaperMod
