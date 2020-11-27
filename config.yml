@@ -1,4 +1,4 @@
-baseURL: "https://mzgs.github.io/mihrapdergisi/"
+baseURL: "http://mihrapdergisi.com"
 title: Mihrap Dergisi
 paginate: 5
 theme: hugo-PaperMod
@@ -8,7 +8,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-canonifyurls: true
+canonifyurls: false
 minify:
   disableXML: true
   minifyOutput: true

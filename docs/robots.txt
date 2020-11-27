@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://mzgs.github.io/mihrapdergisi/sitemap.xml
+Sitemap: http://mihrapdergisi.com/sitemap.xml
