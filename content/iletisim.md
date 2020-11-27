@@ -10,5 +10,6 @@ title: "İletişim"
 
 
 
+ 
 
-![Image of Yaktocat](/images/mihrap_adr.jpg)
+{{< figure src="/images/mihrap_adr.jpg" >}}
