@@ -2,74 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f4b0e69-5f31-4b2f-b5b5-d47fe3cfef70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mihrap512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/.github/stale.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/.github/workflows/gh-pages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/an-old-hope.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/archive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/post-entry.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/post-single.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/profile-mode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/terms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/css/theme-vars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/assets/js/highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/bg.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/de.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/en.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/es.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/fa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/fr.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/hi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/ja.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/ko.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/ru.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/i18n/zh.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/images/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/images/tn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/archives.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/baseof.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/terms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/anchored_headings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/author.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/cover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/extend_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/extend_head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/home_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/index_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/post_meta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/share_icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/social_icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/svg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/templates/opengraph.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/templates/schema_json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/templates/twitter_cards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/shortcodes/blockquote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/shortcodes/collapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/shortcodes/rawhtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/theme.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/mihrap_adr.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/dene.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/iletisim.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-PaperMod/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +60,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add nedted menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nedted menu" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1847" y="1103" key="CommitChangelistDialog2" timestamp="1606492260063">
+      <screen x="0" y="25" width="3840" height="2050" />
+    </state>
+    <state x="1847" y="1103" key="CommitChangelistDialog2/0.25.3840.2050@0.25.3840.2050" timestamp="1606492260063" />
     <state x="1598" y="1450" key="Github.ShareDialog" timestamp="1606479093229">
       <screen x="0" y="25" width="3840" height="2050" />
     </state>
@@ -130,5 +77,17 @@
       <screen x="0" y="25" width="3840" height="2050" />
     </state>
     <state x="2015" y="1305" key="Github.UntrackedFilesDialog/0.25.3840.2050@0.25.3840.2050" timestamp="1606479097827" />
+    <state x="1854" y="1308" key="Vcs.Push.Dialog.v2" timestamp="1606492261332">
+      <screen x="0" y="25" width="3840" height="2050" />
+    </state>
+    <state x="1854" y="1308" key="Vcs.Push.Dialog.v2/0.25.3840.2050@0.25.3840.2050" timestamp="1606492261332" />
+    <state x="1954" y="1314" width="600" height="522" key="find.popup" timestamp="1606494914311">
+      <screen x="0" y="25" width="3840" height="2050" />
+    </state>
+    <state x="1954" y="1314" width="600" height="522" key="find.popup/0.25.3840.2050@0.25.3840.2050" timestamp="1606494914311" />
+    <state x="1919" y="1283" width="670" height="676" key="search.everywhere.popup" timestamp="1606495054711">
+      <screen x="0" y="25" width="3840" height="2050" />
+    </state>
+    <state x="1919" y="1283" width="670" height="676" key="search.everywhere.popup/0.25.3840.2050@0.25.3840.2050" timestamp="1606495054711" />
   </component>
 </project>

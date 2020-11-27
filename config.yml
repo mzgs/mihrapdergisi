@@ -1,15 +1,13 @@
-baseURL: "https://examplesite.com"
-title: ExampleSite
+baseURL: "https://mihrapdergisi.com"
+title: Mihrap Dergisi
 paginate: 5
 theme: hugo-PaperMod
 publishDir: docs
-
+googleAnalytics: UA-130362437-4
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -17,15 +15,15 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  author: Me
+  title: Mihrap Dergisi
+  description: "Mihrap Dergisi"
+  author: Mihrap
   # author: ["Me", "You"] # multiple authors
 
   images: "<link or path of image for opengraph, twitter-cards>"
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   comments: false
   defaultTheme: light
   disableThemeToggle: true
@@ -46,7 +44,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Mihrap Dergisi
     # imageUrl: '<img location>'
     # imageTitle: my image
     buttons:
@@ -58,15 +56,19 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Mihrap Dergisi
 
   socialIcons:
+    - name: facebook
+      url: "https://www.facebook.com/mihrapdergi"
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+      url: "https://twitter.com/mihrapdergisi"
+    - name: instagram
+      url: "https://www.instagram.com/mihrapdergisi/"
+    - name: youtube
+      url: "https://www.youtube.com/channel/UC__FOJUfaZXLTHF_Tl3XZ9A"
+
+
 
   analytics:
     google:
@@ -75,23 +77,37 @@ params:
       
 menu:
   main:
-    - identifier: about
-      name: about hugo
-      pre: <i class='fa fa-heart'></i>
-      url: /about/
-      weight: -110
+    - identifier: sayi
+      name: Sayılarımız
+      weight: 1
       
-    - name: sayi 1
-      url: /getting-started/
-      parent: about
+   
+    - name: 1. Sayı
+      url: http://bit.ly/2VOC3QJ
+      parent: sayi
+      
+    - name: 2. Sayı
+      url: http://bit.ly/32Us3ah
+      parent: sayi
+      
+    - name: 3. Sayı
+      url: http://bit.ly/2xhLE8D
+      parent: sayi  
+      
+    - name: 4. Sayı
+      url: https://bit.ly/2XEw5T4
+      parent: sayi
+      
+    - name: 5. Sayı
+      url: https://bit.ly/356m70Y
+      parent: sayi  
+ 
+      
+    - name: İletişim
+      url: /iletisim/
+      weight: 2
 
-    - name: sayi 2
-      url: /getting-started/
-      parent: about  
-       
 
-    - name: getting started
-      post: <span class='alert'>New!</span>
-      pre: <i class='fa fa-road'></i>
-      url: /getting-started/
-      weight: -100      
+    - name: mihrap.org
+      url: http://www.mihrap.org/
+     
