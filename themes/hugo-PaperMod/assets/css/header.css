@@ -116,7 +116,7 @@ body:not(.dark) #sun {
  
  
 .mn li a:hover {
-    background: #eee;
+    background: #ddd;
 }
 
 .mn .submenu {
@@ -133,6 +133,7 @@ body:not(.dark) #sun {
     width: 150px;
     z-index: 9;
     border-radius: 5px;
+    background: #eee;
     
 }
 .submenu li {
