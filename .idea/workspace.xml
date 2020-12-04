@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f4b0e69-5f31-4b2f-b5b5-d47fe3cfef70" name="Default Changelist" comment="">
+    <list default="true" id="8f4b0e69-5f31-4b2f-b5b5-d47fe3cfef70" name="Default Changelist" comment="change to https">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
     </list>
@@ -27,6 +27,7 @@
   </component>
   <component name="ProjectId" id="1ksA5ft4k0wnIiB453LYkvedsea" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -64,13 +65,14 @@
     <MESSAGE value="finished" />
     <MESSAGE value="add docs" />
     <MESSAGE value="fix menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix menu" />
+    <MESSAGE value="change to https" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to https" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1847" y="1103" key="CommitChangelistDialog2" timestamp="1606502055466">
+    <state x="1847" y="1103" key="CommitChangelistDialog2" timestamp="1606514614304">
       <screen x="0" y="25" width="3840" height="2050" />
     </state>
-    <state x="1847" y="1103" key="CommitChangelistDialog2/0.25.3840.2050@0.25.3840.2050" timestamp="1606502055466" />
+    <state x="1847" y="1103" key="CommitChangelistDialog2/0.25.3840.2050@0.25.3840.2050" timestamp="1606514614304" />
     <state x="1598" y="1450" key="Github.ShareDialog" timestamp="1606479093229">
       <screen x="0" y="25" width="3840" height="2050" />
     </state>
@@ -79,10 +81,14 @@
       <screen x="0" y="25" width="3840" height="2050" />
     </state>
     <state x="2015" y="1305" key="Github.UntrackedFilesDialog/0.25.3840.2050@0.25.3840.2050" timestamp="1606479097827" />
-    <state x="1854" y="1308" key="Vcs.Push.Dialog.v2" timestamp="1606502057424">
+    <state x="1854" y="1308" key="Vcs.Push.Dialog.v2" timestamp="1606508508287">
       <screen x="0" y="25" width="3840" height="2050" />
     </state>
-    <state x="1854" y="1308" key="Vcs.Push.Dialog.v2/0.25.3840.2050@0.25.3840.2050" timestamp="1606502057424" />
+    <state x="1854" y="1308" key="Vcs.Push.Dialog.v2/0.25.3840.2050@0.25.3840.2050" timestamp="1606508508287" />
+    <state x="2052" y="1454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606509328073">
+      <screen x="0" y="25" width="3840" height="2050" />
+    </state>
+    <state x="2052" y="1454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.3840.2050@0.25.3840.2050" timestamp="1606509328073" />
     <state x="1954" y="1314" width="600" height="522" key="find.popup" timestamp="1606494914311">
       <screen x="0" y="25" width="3840" height="2050" />
     </state>

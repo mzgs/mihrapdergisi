@@ -100,9 +100,15 @@ menu:
       
     - name: 5. Sayı
       url: https://bit.ly/356m70Y
-      parent: sayi  
- 
-      
+      parent: sayi
+
+    - name: 6. Sayı
+      url: https://bit.ly/3mHwazD
+      parent: sayi
+
+
+
+
     - name: İletişim
       url: /iletisim/
       weight: 2
