@@ -110,6 +110,10 @@ menu:
       url: http://bit.ly/3c0GjDp
       parent: sayi  
 
+    - name: 8. Sayı
+      url: https://bit.ly/3vRFk0S
+      parent: sayi   
+
 
 
 
