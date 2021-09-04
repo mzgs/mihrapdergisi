@@ -114,7 +114,9 @@ menu:
       url: https://bit.ly/3vRFk0S
       parent: sayi   
 
-
+    - name: 9. Sayı
+      url: https://bit.ly/3yFgnGA
+      parent: sayi   
 
 
     - name: İletişim
