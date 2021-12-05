@@ -118,6 +118,10 @@ menu:
       url: https://bit.ly/3yFgnGA
       parent: sayi   
 
+    - name: 10. Sayı
+      url: https://bit.ly/332NXfF
+      parent: sayi    
+
 
     - name: İletişim
       url: /iletisim/
