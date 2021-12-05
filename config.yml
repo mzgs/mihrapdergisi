@@ -85,42 +85,61 @@ menu:
     - name: 1. Sayı
       url: http://bit.ly/2VOC3QJ
       parent: sayi
+      weight: 1
       
     - name: 2. Sayı
       url: http://bit.ly/32Us3ah
       parent: sayi
+      weight: 2
+
       
     - name: 3. Sayı
       url: http://bit.ly/2xhLE8D
       parent: sayi  
+      weight: 3
+
       
     - name: 4. Sayı
       url: https://bit.ly/2XEw5T4
       parent: sayi
+      weight: 4
+
       
     - name: 5. Sayı
       url: https://bit.ly/356m70Y
       parent: sayi
+      weight: 5
+
 
     - name: 6. Sayı
       url: https://bit.ly/3mHwazD
       parent: sayi
+      weight: 6
+
       
     - name: 7. Sayı
       url: http://bit.ly/3c0GjDp
       parent: sayi  
+      weight: 7
+
 
     - name: 8. Sayı
       url: https://bit.ly/3vRFk0S
       parent: sayi   
+      weight: 8
+
 
     - name: 9. Sayı
       url: https://bit.ly/3yFgnGA
       parent: sayi   
+      weight: 9
 
     - name: 10. Sayı
       url: https://bit.ly/332NXfF
       parent: sayi    
+      weight: 10
+
+       
 
 
     - name: İletişim
