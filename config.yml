@@ -144,6 +144,10 @@ menu:
       parent: sayi    
       weight: 11
 
+    - name: 12. Sayı
+      url: https://bit.ly/3xksJqn
+      parent: sayi    
+      weight: 12
        
 
 
