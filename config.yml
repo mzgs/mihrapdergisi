@@ -158,11 +158,7 @@ menu:
       url: http://bit.ly/3VVsewl
       parent: sayi    
       weight: 14  
-
-    - name: 15. Sayı
-      url: http://bit.ly/3VVsewl
-      parent: sayi    
-      weight: 15    
+ 
        
     - name: İletişim
       url: /iletisim/
