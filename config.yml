@@ -159,8 +159,6 @@ menu:
       parent: sayi    
       weight: 14  
        
-
-
     - name: İletişim
       url: /iletisim/
       weight: 2
