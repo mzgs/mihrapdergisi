@@ -81,88 +81,90 @@ menu:
       name: Sayılarımız
       weight: 1
       
-   
-    - name: 1. Sayı
-      url: http://bit.ly/2VOC3QJ
-      parent: sayi
-      weight: 1
-      
-    - name: 2. Sayı
-      url: http://bit.ly/32Us3ah
-      parent: sayi
-      weight: 2
+    - name: 16. Sayı
+      url: https://bit.ly/43G8Kj9
+      parent: sayi    
+      weight: 84    
 
-      
-    - name: 3. Sayı
-      url: http://bit.ly/2xhLE8D
-      parent: sayi  
-      weight: 3
+    - name: 15. Sayı
+      url: http://bit.ly/3lvbn6N
+      parent: sayi    
+      weight: 85      
 
-      
-    - name: 4. Sayı
-      url: https://bit.ly/2XEw5T4
-      parent: sayi
-      weight: 4
+    - name: 14. Sayı
+      url: http://bit.ly/3VVsewl
+      parent: sayi    
+      weight: 86  
 
-      
-    - name: 5. Sayı
-      url: https://bit.ly/356m70Y
-      parent: sayi
-      weight: 5
+    - name: 13. Sayı
+      url: https://bit.ly/3KMaO0B
+      parent: sayi    
+      weight: 87  
 
+    - name: 12. Sayı
+      url: https://bit.ly/3Q1xo7W
+      parent: sayi    
+      weight: 88
 
-    - name: 6. Sayı
-      url: https://bit.ly/3mHwazD
-      parent: sayi
-      weight: 6
-
-      
-    - name: 7. Sayı
-      url: http://bit.ly/3c0GjDp
-      parent: sayi  
-      weight: 7
+    - name: 11. Sayı
+      url: https://bit.ly/3hEXVYv
+      parent: sayi    
+      weight: 89
 
 
-    - name: 8. Sayı
-      url: https://bit.ly/3vRFk0S
-      parent: sayi   
-      weight: 8
+    - name: 10. Sayı
+      url: https://bit.ly/332NXfF
+      parent: sayi    
+      weight: 90
 
 
     - name: 9. Sayı
       url: https://bit.ly/3yFgnGA
       parent: sayi   
-      weight: 9
+      weight: 91
 
-    - name: 10. Sayı
-      url: https://bit.ly/332NXfF
-      parent: sayi    
-      weight: 10
+    - name: 8. Sayı
+      url: https://bit.ly/3vRFk0S
+      parent: sayi   
+      weight: 92
 
-    - name: 11. Sayı
-      url: https://bit.ly/3hEXVYv
-      parent: sayi    
-      weight: 11
+    - name: 7. Sayı
+      url: http://bit.ly/3c0GjDp
+      parent: sayi  
+      weight: 93 
 
-    - name: 12. Sayı
-      url: https://bit.ly/3Q1xo7W
-      parent: sayi    
-      weight: 12
+    - name: 6. Sayı
+      url: https://bit.ly/3mHwazD
+      parent: sayi
+      weight: 94
 
-    - name: 13. Sayı
-      url: https://bit.ly/3KMaO0B
-      parent: sayi    
-      weight: 13  
+    - name: 5. Sayı
+      url: https://bit.ly/356m70Y
+      parent: sayi
+      weight: 95  
+  
+    - name: 4. Sayı
+      url: https://bit.ly/2XEw5T4
+      parent: sayi
+      weight: 96
 
-    - name: 14. Sayı
-      url: http://bit.ly/3VVsewl
-      parent: sayi    
-      weight: 14  
+    - name: 3. Sayı
+      url: http://bit.ly/2xhLE8D
+      parent: sayi  
+      weight: 97
 
-    - name: 15. Sayı
-      url: http://bit.ly/3lvbn6N
-      parent: sayi    
-      weight: 15    
+    - name: 2. Sayı
+      url: http://bit.ly/32Us3ah
+      parent: sayi
+      weight: 98
+
+    - name: 1. Sayı
+      url: http://bit.ly/2VOC3QJ
+      parent: sayi
+      weight: 99
+      
+ 
+ 
  
        
     - name: İletişim
