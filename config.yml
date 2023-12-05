@@ -81,6 +81,11 @@ menu:
       name: Sayılarımız
       weight: 1
       
+    - name: 18. Sayı
+      url: https://bit.ly/4a5J9UC
+      parent: sayi    
+      weight: 82     
+
     - name: 17. Sayı
       url: https://bit.ly/3qSThP3
       parent: sayi    
