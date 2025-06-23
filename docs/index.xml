@@ -4,16 +4,15 @@
     <title>Mihrap Dergisi</title>
     <link>https://mihrapdergisi.com/</link>
     <description>Recent content on Mihrap Dergisi</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://mihrapdergisi.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://mihrapdergisi.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>İletişim</title>
       <link>https://mihrapdergisi.com/iletisim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://mihrapdergisi.com/iletisim/</guid>
-      <description>📞 +90 553 754 67 27
-🏠 Mihrap dergisi, Karacaahmet, Karacaahmet 38020, Nolu Cd No 88\1, 27590 Şehitkamil/Gaziantep</description>
+      <description>&lt;p&gt;📞 +90 553 754 67 27&lt;br&gt;&#xA;🏠 Mihrap dergisi, Karacaahmet, Karacaahmet 38020, Nolu Cd No 88\1, 27590 Şehitkamil/Gaziantep&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://mihrapdergisi.com/images/mihrap_adr.jpg&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
-    
   </channel>
 </rss>

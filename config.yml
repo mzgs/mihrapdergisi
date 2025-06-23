@@ -1,6 +1,6 @@
 baseURL: "https://mihrapdergisi.com"
 title: Mihrap Dergisi
-paginate: 5
+
 theme: hugo-PaperMod
 publishDir: docs
 googleAnalytics: UA-130362437-4
@@ -81,6 +81,11 @@ menu:
       name: Sayılarımız
       weight: 1
       
+
+    - name: 21. Sayı
+      url: https://drive.google.com/file/d/1ka65i3JttEMn7Y_B7gjVJ_NQqN5r6s1g/view?usp=sharing
+      parent: sayi    
+      weight: 79  
 
     - name: 20. Sayı
       url: https://bit.ly/47ll1wc
