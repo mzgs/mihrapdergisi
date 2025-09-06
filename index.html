@@ -563,10 +563,18 @@
                         <div class="magazine-cover-wrapper">
                             ${isNew ? '<span class="new-badge">YENİ</span>' : ''}
                             <span class="magazine-badge">Sayı ${magazine.issue_number}</span>
-                            <img src="${magazine.cover_image}" 
-                                 alt="${magazine.title}" 
-                                 class="magazine-cover"
-                                 onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'500\\'%3E%3Crect width=\\'400\\' height=\\'500\\' fill=\\'%23f0f0f0\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-family=\\'Arial\\' font-size=\\'20\\'%3EDergi Kapağı%3C/text%3E%3C/svg%3E'">
+                            ${magazine.read_url && magazine.read_url !== null ? 
+                                `<a href="${magazine.read_url}" target="_blank">
+                                    <img src="${magazine.cover_image}" 
+                                         alt="${magazine.title}" 
+                                         class="magazine-cover"
+                                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'500\\'%3E%3Crect width=\\'400\\' height=\\'500\\' fill=\\'%23f0f0f0\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-family=\\'Arial\\' font-size=\\'20\\'%3EDergi Kapağı%3C/text%3E%3C/svg%3E'">
+                                </a>` :
+                                `<img src="${magazine.cover_image}" 
+                                     alt="${magazine.title}" 
+                                     class="magazine-cover"
+                                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'500\\'%3E%3Crect width=\\'400\\' height=\\'500\\' fill=\\'%23f0f0f0\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-family=\\'Arial\\' font-size=\\'20\\'%3EDergi Kapağı%3C/text%3E%3C/svg%3E'">`
+                            }
                         </div>
                         <div class="magazine-info">
                             <h5 class="magazine-title">${magazine.title}</h5>
