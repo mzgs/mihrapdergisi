@@ -61,19 +61,8 @@
             text-transform: uppercase;
             margin-bottom: 10px;
             animation: fadeInDown 0.8s ease;
-            color: var(--gold-primary); /* Fallback color */
-            background: linear-gradient(135deg, var(--gold-light), var(--gold-primary), var(--gold-light));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-shadow: 0 2px 4px rgba(196, 169, 98, 0.1);
-        }
-        
-        @supports not (-webkit-background-clip: text) {
-            .hero-title {
-                background: none;
-                color: var(--gold-primary);
-            }
+            color: var(--gold-primary) !important;
+            text-shadow: 0 2px 4px rgba(196, 169, 98, 0.2);
         }
         
         .hero-subtitle {
@@ -292,19 +281,8 @@
         .stat-number {
             font-size: 1.8rem;
             font-weight: 600;
-            color: var(--gold-primary); /* Fallback color */
-            background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-dark) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: var(--gold-primary) !important;
             line-height: 1.2;
-        }
-        
-        @supports not (-webkit-background-clip: text) {
-            .stat-number {
-                background: none;
-                color: var(--gold-primary);
-            }
         }
         
         .stat-label {
