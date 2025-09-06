@@ -507,8 +507,6 @@
             statsSection.style.display = 'none';
             
             try {
-                console.log(`Fetching from: ${API_URL}`);
-                
                 const response = await fetch(API_URL, {
                     method: 'GET',
                     headers: {
@@ -516,14 +514,11 @@
                     }
                 });
                 
-                console.log('Response status:', response.status);
-                
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
                 const data = await response.json();
-                console.log('Received data:', data);
                 
                 // Hide loading
                 loadingDiv.classList.remove('active');
@@ -614,13 +609,11 @@
         
         function downloadMagazine(id) {
             // Placeholder for downloading magazine
-            console.log('Download magazine:', id);
             alert(`Dergi #${id} indirme özelliği yakında eklenecek!`);
         }
         
         // Auto-fetch on page load
         window.addEventListener('DOMContentLoaded', () => {
-            console.log('Page loaded. Fetching magazines...');
             fetchMagazines();
         });
     </script>
