@@ -510,6 +510,13 @@
     
     <script>
         const API_URL = 'https://kitap.mihrap.org/dergiler';
+
+        function getValidReadUrl(magazine) {
+            if (!magazine || typeof magazine.read_url !== 'string') {
+                return '';
+            }
+            return magazine.read_url.trim();
+        }
         
         async function fetchMagazines() {
             const loadingDiv = document.getElementById('loading');
@@ -538,16 +545,17 @@
                 }
                 
                 const data = await response.json();
+                const readableMagazines = data.filter((magazine) => Boolean(getValidReadUrl(magazine)));
                 
                 // Hide loading
                 loadingDiv.classList.remove('active');
                 
                 // Display magazines or no magazines message
-                if (data.length === 0) {
+                if (readableMagazines.length === 0) {
                     noMagazinesDiv.style.display = 'block';
                 } else {
-                    displayMagazines(data);
-                    updateStats(data);
+                    displayMagazines(readableMagazines);
+                    updateStats(readableMagazines);
                     statsSection.style.display = 'block';
                 }
                 
@@ -573,44 +581,41 @@
         
         function displayMagazines(magazines) {
             const magazinesDiv = document.getElementById('magazines');
+            let displayedCount = 0;
             
-            magazines.forEach((magazine, index) => {
-                const isNew = index === 0; // First magazine is the newest
+            magazines.forEach((magazine) => {
+                const readUrl = getValidReadUrl(magazine);
+                if (!readUrl) {
+                    return;
+                }
+
+                const isNew = displayedCount === 0; // First magazine is the newest
+                displayedCount += 1;
+                const animationDelay = (displayedCount - 1) * 0.1;
                 
                 const col = document.createElement('div');
                 col.className = 'col-6 col-md-4 col-lg-3';
-                col.style.animationDelay = `${index * 0.1}s`;
+                col.style.animationDelay = `${animationDelay}s`;
                 
                 col.innerHTML = `
                     <div class="magazine-card">
                         <div class="magazine-cover-wrapper">
                             ${isNew ? '<span class="new-badge">YENİ</span>' : ''}
                             <span class="magazine-badge">Sayı ${magazine.issue_number}</span>
-                            ${magazine.read_url && magazine.read_url !== null ? 
-                                `<a href="${magazine.read_url}" target="_blank">
-                                    <img src="${magazine.cover_image}" 
-                                         alt="${magazine.title}" 
-                                         class="magazine-cover"
-                                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'500\\'%3E%3Crect width=\\'400\\' height=\\'500\\' fill=\\'%23f0f0f0\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-family=\\'Arial\\' font-size=\\'20\\'%3EDergi Kapağı%3C/text%3E%3C/svg%3E'">
-                                </a>` :
-                                `<img src="${magazine.cover_image}" 
+                            <a href="${readUrl}" target="_blank">
+                                <img src="${magazine.cover_image}" 
                                      alt="${magazine.title}" 
                                      class="magazine-cover"
-                                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'500\\'%3E%3Crect width=\\'400\\' height=\\'500\\' fill=\\'%23f0f0f0\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-family=\\'Arial\\' font-size=\\'20\\'%3EDergi Kapağı%3C/text%3E%3C/svg%3E'">`
-                            }
+                                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'500\\'%3E%3Crect width=\\'400\\' height=\\'500\\' fill=\\'%23f0f0f0\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' dy=\\'.3em\\' fill=\\'%23999\\' font-family=\\'Arial\\' font-size=\\'20\\'%3EDergi Kapağı%3C/text%3E%3C/svg%3E'">
+                            </a>
                         </div>
                         <div class="magazine-info">
                             <h5 class="magazine-title">${magazine.title}</h5>
                             ${magazine.issue_info ? `<p class="magazine-issue-info"><i class="bi bi-calendar3 me-2"></i>${magazine.issue_info}</p>` : ''}
                             <div class="magazine-actions">
-                                ${magazine.read_url && magazine.read_url !== null ? 
-                                    `<a href="${magazine.read_url}" target="_blank" class="btn btn-read">
-                                        <i class="bi bi-book me-2"></i>Oku
-                                    </a>` :
-                                    `<button class="btn btn-read" disabled>
-                                        <i class="bi bi-book me-2"></i>Oku
-                                    </button>`
-                                }
+                                <a href="${readUrl}" target="_blank" class="btn btn-read">
+                                    <i class="bi bi-book me-2"></i>Oku
+                                </a>
                                 <button class="btn btn-download" onclick="downloadMagazine(${magazine.id})" title="İndir">
                                     <i class="bi bi-download"></i>
                                 </button>
